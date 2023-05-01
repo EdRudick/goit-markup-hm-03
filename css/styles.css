@@ -1,0 +1,212 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color: #434455;
+    --primary-white-color: #ffffff;
+    --accent-color: #404bbf;
+    --secondary-background-color: #2E2F42;
+    --team-background-color: #F4F4FD;
+    --btn-color: #4D5AE5;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    width: 44px;
+    height: 21px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--btn-color);
+}
+
+.logo-studio {
+    color: var(--secondary-background-color);
+}
+
+.menu-item:hover,
+.menu-item:focus {
+    color: var(--accent-color);
+}
+
+.menu-item {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-background-color);
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-item:hover,
+.address-item:focus {
+    color: var(--accent-color);
+}
+
+.address-item {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.main-section {
+    background-color: var(--secondary-background-color);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--primary-white-color);
+}
+
+.button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-white-color);
+    background-color: var(--btn-color);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+}
+
+.top-principles {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-background-color);
+}
+
+.principle-descript {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.title-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-background-color);
+}
+
+.team-section {
+    background-color: var(--team-background-color);
+}
+
+.img {
+    background-color: var(--primary-white-color);
+}
+
+.name-emp {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-background-color);
+}
+
+.team-descript {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.logo-foot-studio {
+    color: var(--team-background-color);
+}
+
+.buttons {
+    font-family: 'Roboto', sans-serif;
+    ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--btn-color);
+    background-color: var(--team-background-color);
+    cursor: pointer;
+}
+
+.buttons:hover,
+.buttons:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.name-porto {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-background-color);
+}
+
+.descript-porto {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+/*footer*/
+.footer {
+    background-color: var(--secondary-background-color);
+}
+
+.logo-foot-studio {
+    color: var(--team-background-color);
+}
+
+.footer-descript {
+    color: var(--team-background-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
