@@ -400,6 +400,11 @@ body {
     padding: 12px, 24px;
 }
 
+.buttons-container:hover,
+.buttons-container:focus {
+    background-color: transparent;
+}
+
 .buttons {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -432,13 +437,12 @@ body {
     padding-top: 72px;
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 120px;
 }
 
 .nm-container {
     display: flex;
     padding: 0 16px;
-
+    margin-bottom: 8px;
 
 }
 
@@ -473,13 +477,20 @@ body {
     height: 312px;
     margin-left: auto;
     margin-right: auto;
+    padding: 100px 0;
 }
 
 .footer-container {
     display: inline-block;
-    padding: 100px 0;
+    padding-left: 156px;
     flex-direction: column;
     margin-bottom: 16px;
+}
+
+.logo-foot-container {
+    display: inline-block;
+    margin-bottom: 16px;
+
 }
 
 .logo-foot-studio {
