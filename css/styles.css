@@ -264,7 +264,6 @@ body {
 
 .proect-section {
     display: flex;
-    padding-bottom: 120px;
 }
 
 .title-section {
@@ -280,7 +279,7 @@ body {
 
 .ps-container {
     display: flex;
-
+    padding-bottom: 120px;
     flex-direction: column;
     align-items: center;
 }
@@ -288,7 +287,11 @@ body {
 .ts-container {
     display: flex;
     margin-bottom: 72px;
+}
 
+.proect-section {
+    display: flex;
+    padding-bottom: 120px;
 }
 
 .proect-container {
@@ -321,7 +324,7 @@ body {
 .team-item-container {
     display: flex;
     flex-direction: row;
-    column-gap: 23.62px;
+    gap: 24px;
 }
 
 .img-container {
