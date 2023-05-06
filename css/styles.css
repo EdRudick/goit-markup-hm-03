@@ -49,7 +49,7 @@ body {
 }
 
 .container {
-    width: 1158px;
+    width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 156px;
@@ -366,15 +366,30 @@ body {
 .porto-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
     column-gap: 24px;
+    row-gap: 48px;
     flex-wrap: wrap;
     padding-top: 72px;
     padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 120px;
 }
 
 .nm-container {
     display: flex;
-    padding-top: ;
+    padding: 0 16px;
+
+
+}
+
+.ndp-container {
+    display: flex;
+    border: 1px solid var(--btns-color);
+    border-top: none;
+    flex-direction: column;
+    padding: 32px 0px;
+    row-gap: 8px;
 }
 
 .name-porto {
@@ -415,6 +430,7 @@ body {
 
 .fd-container {
     display: flex;
+    padding-top: 16px;
 }
 
 .footer-descript {
