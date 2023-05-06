@@ -414,8 +414,8 @@ body {
     padding: 12px, 24px;
 }
 
-.buttons-container:hover,
-.buttons-container:focus {
+.buttons-menu-container:hover,
+.buttons-menu-container:focus {
     background-color: transparent;
 }
 
