@@ -107,7 +107,7 @@ body {
     align-items: center;
     flex-direction: row;
     gap: 40px;
-    padding: 24px 0;
+
 }
 
 .menu-item:hover,
@@ -167,13 +167,14 @@ body {
 
 .ms-container {
     display: flex;
-    padding: 188px 0;
+
 }
 
 .main-section-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 188px 0;
 }
 
 .title-container {
@@ -224,6 +225,11 @@ body {
     padding: 120px 0;
 }
 
+.principles-section-container {
+    display: flex;
+    padding-bottom: 120px;
+}
+
 .principles-container {
     display: flex;
     padding-top: 130px;
@@ -233,7 +239,7 @@ body {
 .tp-container {
     display: flex;
     flex-direction: column;
-    width: calc(100%-72px);
+    width: calc((100%-72px)/4);
     text-align: center;
 }
 
@@ -258,10 +264,7 @@ body {
     color: var(--primary-text-color);
 }
 
-.ps-container {
-    display: flex;
-    padding-bottom: 120px;
-}
+
 
 .title-section {
 
@@ -277,6 +280,7 @@ body {
 .ts-container {
     display: flex;
     margin-bottom: 72px;
+    align-items: center;
 }
 
 .proect-container {
