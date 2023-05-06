@@ -7,6 +7,7 @@
     --secondary-background-color: #2E2F42;
     --team-background-color: #F4F4FD;
     --btn-color: #4D5AE5;
+    --btns-color: #E7E9FC;
 }
 
 .list {
@@ -48,7 +49,7 @@ body {
 }
 
 .container {
-    width: 1440px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 156px;
@@ -59,7 +60,9 @@ body {
     display: flex;
     align-items: center;
     min-height: 72px;
-
+    padding-left: 0;
+    padding-right: 0;
+    border: 1px solid var(--btns-color);
 }
 
 .page-header-container {
@@ -97,6 +100,8 @@ body {
     column-gap: 40px;
     padding-left: 76px;
 }
+
+
 
 .menu-item:hover,
 .menu-item:focus {
@@ -175,6 +180,8 @@ body {
     border-radius: 4px;
 }
 
+
+
 .button {
     font-family: inherit;
     font-weight: 500;
@@ -243,7 +250,6 @@ body {
 
 .tst-container {
     display: flex;
-
 }
 
 .title-section-team {
@@ -310,6 +316,36 @@ body {
     color: var(--team-background-color);
 }
 
+/*portfolio*/
+.menu-port-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.buttons-menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+    padding-top: 96px;
+
+}
+
+.buttons-container {
+    padding: 12px 24px;
+    display: flex;
+    border: 1px solid var(--btns-color);
+    width: auto;
+    height: 48px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px, 24px;
+}
+
 .buttons {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -327,6 +363,20 @@ body {
     background-color: var(--accent-color);
 }
 
+.porto-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    padding-top: 72px;
+    padding-left: 0;
+}
+
+.nm-container {
+    display: flex;
+    padding-top: ;
+}
+
 .name-porto {
     font-weight: 500;
     font-size: 20px;
@@ -341,6 +391,8 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
+
+
 
 /*footer*/
 .footer {
