@@ -107,7 +107,7 @@ body {
     align-items: center;
     flex-direction: row;
     gap: 40px;
-
+    padding: 24px 0;
 }
 
 .menu-item:hover,
@@ -117,7 +117,7 @@ body {
 
 .mi-container {
     display: flex;
-    padding: 24px 0;
+
 }
 
 .menu-item {
@@ -167,14 +167,14 @@ body {
 
 .ms-container {
     display: flex;
-
+    padding: 188px 0;
 }
 
 .main-section-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 188px 0;
+
 }
 
 .title-container {
@@ -372,8 +372,6 @@ body {
     flex-direction: column;
 }
 
-
-
 .buttons-menu-container {
     display: flex;
     flex-direction: row;
@@ -411,6 +409,11 @@ body {
 .buttons:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+}
+
+.main-container {
+    display: flex;
+    padding: 96px 0 120px;
 }
 
 .porto-container {
