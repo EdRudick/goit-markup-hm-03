@@ -287,7 +287,7 @@ body {
 .ts-container {
     display: flex;
     margin-bottom: 72px;
-
+    width: calc((100% - 48px) / 3);
 }
 
 .proect-section {
@@ -299,6 +299,10 @@ body {
     display: flex;
     flex-direction: row;
     gap: 24px;
+}
+
+.img-proect-container {
+    display: flex;
     width: calc((100% - 48px) / 3);
 }
 
