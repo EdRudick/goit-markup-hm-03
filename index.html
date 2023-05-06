@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>goit-markup-hw-02</title>
+    <title>goit-markup-hw-03</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@800&display=swap"
         rel="stylesheet">
-    <link rel="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
-    <header class="page-header container">
+    <header class="page-header">
         <div class="container page-header-container">
             <nav class="page-navigation page-navigation-container">
-                <a class="logo link" href="./index.html">Web<span class="logo-studio">Studio</span>
+                <a class="logo link logo-container" href="./index.html">Web<span class="logo-studio">Studio</span>
                 </a>
                 <ul class="menu list">
                     <li class="menu-item"><a class="menu-item link" href="./index.html">Studio</a></li>
@@ -40,38 +40,38 @@
     </header>
 
     <main>
-        <section class="main-section">
+        <section class="main-section ms-container">
             <div class="container main-section-container">
                 <h1 class="title title-container">Effective Solutions for Your Business</h1>
                 <button class="button button-container" type="button">Order Service</button>
             </div>
         </section>
-        <section>
+        <section class="main-section2">
             <div class="container">
                 <h2 class="section-title" hidden>Our principles</h2>
                 <ul class="list principles principles-container">
                     <li>
-                        <h3 class="top-principles">Strategy</h3>
+                        <h3 class="top-principles tp-container">Strategy</h3>
                         <p class="principle-descript ">Our goal is to identify the business
                             problem to walk away with the
                             perfect and creative solution.
                         </p>
                     </li>
                     <li>
-                        <h3 class="top-principles">Punctuality</h3>
+                        <h3 class="top-principles tp-container">Punctuality</h3>
                         <p class="principle-descript">Bring the key message to the brand's audience for the best price
                             within the shortest possible
                             time.</p>
                     </li>
                     <li>
-                        <h3 class="top-principles">Diligence</h3>
+                        <h3 class="top-principles tp-container">Diligence</h3>
                         <p class="principle-descript">Research and confirm brands that present the strongest digital
                             growth
                             opportunities and minimize
                             risk.</p>
                     </li>
                     <li>
-                        <h3 class="top-principles">Technologies</h3>
+                        <h3 class="top-principles tp-container">Technologies</h3>
                         <p class="principle-descript">Design practice focused on digital experiences. We bring forth a
                             deep
                             passion for
@@ -80,7 +80,7 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="main-section3">
             <div class="container">
                 <h2 class="title-section">What are we doing</h2>
                 <ul class="list proect proect-container">
@@ -90,29 +90,37 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="main-section4">
             <div class="container team-section-container">
                 <h2 class="title-section-team tst-container">Our Team</h2>
                 <ul class="list team-item-container">
                     <li class="img img-container">
                         <img src="./images/foto1.jpg" alt="product-designer" width="264" height="260">
-                        <h3 class="name-emp ne-container">Mark Guerrero</h3>
-                        <p class="team-descript td-container">Product Designer</p>
+                        <div class="worker">
+                            <h3 class="name-emp ne-container">Mark Guerrero</h3>
+                            <p class="team-descript td-container">Product Designer</p>
+                        </div>
                     </li>
                     <li class="img img-container">
                         <img src="./images/foto2.jpg" alt="frontend-developer" width="264" height="260">
-                        <h3 class="name-emp ne-container">Tom Ford</h3>
-                        <p class="team-descript td-container">Frontend Developer</p>
+                        <div class="worker">
+                            <h3 class="name-emp ne-container">Tom Ford</h3>
+                            <p class="team-descript td-container">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="img img-container">
                         <img src="./images/foto3.jpg" alt="marketing" width="264" height="260">
-                        <h3 class="name-emp ne-container">Camila Garcia</h3>
-                        <p class="team-descript td-container">Marketing</p>
+                        <div class="worker">
+                            <h3 class="name-emp ne-container">Camila Garcia</h3>
+                            <p class="team-descript td-container">Marketing</p>
+                        </div>
                     </li>
                     <li class="img img-container">
                         <img src="./images/foto4.jpg" alt="ui-designer" width="264" height="260">
-                        <h3 class="name-emp ne-container">Daniel Wilson</h3>
-                        <p class="team-descript td-container">UI Designer</p>
+                        <div class="worker">
+                            <h3 class="name-emp ne-container">Daniel Wilson</h3>
+                            <p class="team-descript td-container">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
