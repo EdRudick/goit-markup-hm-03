@@ -56,6 +56,7 @@ body {
     padding-right: 15px;
 }
 
+/*HEADER*/
 .page-header {
     display: flex;
     align-items: center;
@@ -112,6 +113,11 @@ body {
 .menu-item:hover,
 .menu-item:focus {
     color: var(--accent-color);
+}
+
+.mi-container {
+    display: flex;
+    padding: 24px 0;
 }
 
 .menu-item {
@@ -172,7 +178,7 @@ body {
 
 .title-container {
     display: flex;
-    min-width: 496px;
+    max-width: 496px;
 }
 
 .title {
@@ -186,7 +192,7 @@ body {
 }
 
 .button-container {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     min-width: 169px;
@@ -213,7 +219,7 @@ body {
     background-color: var(--accent-color);
 }
 
-.main-section {
+.principles-section {
     display: flex;
     padding: 120px 0;
 }
@@ -226,13 +232,14 @@ body {
 
 .tp-container {
     display: flex;
+    flex-direction: column;
     width: calc(100%-72px);
-    margin-bottom: 8px;
+    text-align: center;
 }
 
-.main-section {
+.top-container {
     display: flex;
-    padding: 120px 0;
+    margin-bottom: 8px;
 }
 
 .top-principles {
@@ -251,9 +258,13 @@ body {
     color: var(--primary-text-color);
 }
 
+.ps-container {
+    display: flex;
+    padding-bottom: 120px;
+}
+
 .title-section {
-    padding-top: 120px;
-    padding-bottom: 72px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -261,6 +272,11 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--secondary-background-color);
+}
+
+.ts-container {
+    display: flex;
+    margin-bottom: 72px;
 }
 
 .proect-container {
