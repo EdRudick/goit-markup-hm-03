@@ -107,7 +107,7 @@ body {
     align-items: center;
     flex-direction: row;
     gap: 40px;
-    padding: 24px 0;
+
 }
 
 .menu-item:hover,
@@ -117,7 +117,7 @@ body {
 
 .mi-container {
     display: flex;
-
+    padding: 24px 0;
 }
 
 .menu-item {
