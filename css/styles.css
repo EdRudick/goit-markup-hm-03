@@ -227,12 +227,10 @@ body {
 
 .principles-section-container {
     display: flex;
-    padding-bottom: 120px;
 }
 
 .principles-container {
     display: flex;
-    padding-top: 130px;
     gap: 24px;
 }
 
@@ -240,7 +238,6 @@ body {
     display: flex;
     flex-direction: column;
     width: calc((100%-72px)/4);
-    text-align: center;
 }
 
 .top-container {
@@ -308,7 +305,6 @@ body {
 .title-section-team {
     width: 159.4px;
     text-align: center;
-    padding-top: 113px;
     padding-bottom: 32px;
     font-weight: 700;
     font-size: 36px;
