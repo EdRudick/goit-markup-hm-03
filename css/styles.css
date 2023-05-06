@@ -286,7 +286,7 @@ body {
 
 .ts-container {
     display: flex;
-    margin-bottom: 72px;
+    width: calc((100% - 48px) / 3);
 }
 
 .proect-section {
