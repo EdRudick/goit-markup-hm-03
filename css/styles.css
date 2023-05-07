@@ -409,7 +409,6 @@ body {
 .buttons-container {
     padding: 12px 24px;
     display: flex;
-    border: 1px solid var(--btns-color);
     width: auto;
     height: 48px;
     border-radius: 4px;
@@ -420,7 +419,7 @@ body {
 
 .buttons-container:hover,
 .buttons-container:focus {
-    border: transparent;
+    border: 1px solid transparent;
 }
 
 .buttons {
