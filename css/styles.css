@@ -411,6 +411,7 @@ body {
     display: flex;
     width: auto;
     height: 48px;
+    border: 1px solid var(--btns-color);
     border-radius: 4px;
     align-items: center;
     justify-content: center;
