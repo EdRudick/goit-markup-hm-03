@@ -418,8 +418,8 @@ body {
     padding: 12px, 24px;
 }
 
-.buttons-menu-container:hover,
-.buttons-menu-container:focus {
+.buttons-container:hover,
+.buttons-container:focus {
     border: transparent;
 }
 
