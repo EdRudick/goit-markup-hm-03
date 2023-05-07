@@ -420,7 +420,7 @@ body {
 
 .buttons-menu-container:hover,
 .buttons-menu-container:focus {
-    background-color: transparent;
+    border: transparent;
 }
 
 .buttons {
@@ -434,8 +434,8 @@ body {
     cursor: pointer;
 }
 
-.buttons:hover,
-.buttons:focus {
+.buttons-container:hover,
+.buttons-container:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
