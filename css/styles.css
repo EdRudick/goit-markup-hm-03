@@ -105,7 +105,7 @@ body {
     align-items: center;
     flex-direction: row;
     gap: 40px;
-
+    padding: 24px 0;
 }
 
 .menu-item:hover,
@@ -260,6 +260,10 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--secondary-background-color);
+}
+
+.proect-section {
+    padding-bottom: 120px;
 }
 
 .proect-section-container {
@@ -444,7 +448,6 @@ body {
 .logo-foot-container {
     display: inline-block;
     margin-bottom: 16px;
-
 }
 
 .logo-foot-studio {
