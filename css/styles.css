@@ -441,7 +441,7 @@ body {
 }
 
 .footer-container {
-    display: inline-block;
+    display: flex;
     flex-direction: column;
 }
 
@@ -455,7 +455,7 @@ body {
 }
 
 .footer-descript {
-    width: 264px;
+    max-width: 264px;
     color: var(--team-background-color);
     font-weight: 400;
     font-size: 16px;
