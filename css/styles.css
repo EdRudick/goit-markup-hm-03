@@ -75,20 +75,18 @@ body {
 
 .page-navigation-container {
     display: flex;
-    column-gap: 40px;
     flex-direction: row;
     align-items: center;
+    margin: auto;
 }
 
 .logo-container {
-    display: flex;
+    margin-left: auto;
     margin-right: 76px;
 }
 
 .logo {
     font-family: var(--secondary-font);
-    width: 44px;
-    height: 21px;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -127,7 +125,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-background-color);
-    padding: 24px 0;
 }
 
 .address-container {
@@ -140,7 +137,7 @@ body {
 .address {
     font-style: normal;
     font-style: normal;
-    padding-left: 332px;
+
 }
 
 .address-item:hover,
@@ -160,8 +157,7 @@ body {
 
 .main-section {
     background-color: var(--secondary-background-color);
-    width: 1440px;
-    height: 600px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -171,16 +167,10 @@ body {
     padding: 188px 0;
 }
 
-.main-section-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
 .title-container {
-    display: flex;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title {
@@ -201,6 +191,8 @@ body {
     height: 56px;
     flex-direction: row;
     margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 4px;
     border: none;
 }
@@ -222,12 +214,11 @@ body {
 }
 
 .principles-section {
-    display: flex;
     padding: 120px 0;
 }
 
-.principles-section-container {
-    display: flex;
+.section-title {
+    display: none;
 }
 
 .principles-container {
@@ -236,13 +227,10 @@ body {
 }
 
 .tp-container {
-    display: flex;
-    flex-direction: column;
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 }
 
 .top-container {
-    display: flex;
     margin-bottom: 8px;
 }
 
@@ -262,37 +250,26 @@ body {
     color: var(--primary-text-color);
 }
 
-.proect-section {
-    display: flex;
-}
-
 .title-section {
-
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    max-width: 323;
     text-align: center;
+    justify-content: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--secondary-background-color);
 }
 
 .proect-section-container {
-    display: flex;
-    padding-bottom: 120px;
     flex-direction: column;
     align-items: center;
 }
 
 .ts-container {
-    display: flex;
     margin-bottom: 72px;
-    width: calc((100% - 48px) / 3);
-}
 
-.proect-section {
-    display: flex;
-    padding-bottom: 120px;
 }
 
 .proect-container {
@@ -308,21 +285,11 @@ body {
 
 .team-section {
     padding: 120px 0;
-}
-
-.team-section-container {
-    display: flex;
-    flex-direction: column;
-    height: 732px;
-    align-items: center;
-    padding: 120px 0;
     background-color: var(--team-background-color);
 }
 
 .title-section-team {
-    width: 159.4px;
     text-align: center;
-    padding-bottom: 32px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -338,10 +305,7 @@ body {
 }
 
 .img-container {
-    padding-bottom: 32px;
-    height: 380px;
     width: calc((100% - 72px) / 4);
-    padding-bottom: 120px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
@@ -351,16 +315,11 @@ body {
 }
 
 .worker {
-    display: flex;
-    flex-direction: column;
     padding: 32px 16px;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
 .ne-container {
-    display: flex;
     margin-bottom: 8px;
 }
 
@@ -370,13 +329,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-background-color);
-}
-
-.td-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .team-descript {
@@ -391,11 +343,6 @@ body {
 }
 
 /*portfolio*/
-.menu-port-container {
-    display: flex;
-    flex-direction: column;
-}
-
 .buttons-menu-container {
     display: flex;
     flex-direction: row;
@@ -403,19 +350,14 @@ body {
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
-
 }
 
 .buttons-container {
     padding: 12px 24px;
-    display: flex;
     width: auto;
     height: 48px;
     border: 1px solid var(--btns-color);
     border-radius: 4px;
-    align-items: center;
-    justify-content: center;
-    padding: 12px, 24px;
 }
 
 .buttons-container:hover,
@@ -441,8 +383,11 @@ body {
 }
 
 .main-container {
-    display: flex;
     padding: 96px 0 120px;
+}
+
+.title-h1 {
+    display: none;
 }
 
 .porto-container {
@@ -457,19 +402,13 @@ body {
 }
 
 .nm-container {
-    display: flex;
-    padding: 0 16px;
     margin-bottom: 8px;
-
 }
 
 .ndp-container {
-    display: flex;
     border: 1px solid var(--btns-color);
     border-top: none;
-    flex-direction: column;
     padding: 32px 16px;
-    row-gap: 8px;
 }
 
 .name-porto {
@@ -498,8 +437,7 @@ body {
 }
 
 .footer-container {
-    display: inline-block;
-    padding-left: 156px;
+    display: flex;
     flex-direction: column;
 }
 
