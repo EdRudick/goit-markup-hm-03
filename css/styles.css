@@ -58,26 +58,20 @@ body {
 
 /*HEADER*/
 .page-header {
-    display: flex;
-    align-items: center;
-    min-height: 72px;
-    padding-left: 0;
-    padding-right: 0;
     border-bottom: 1px solid var(--btns-color);
-
 }
 
 .page-header-container {
     display: flex;
     align-items: center;
-
+    margin-right: auto;
 }
 
 .page-navigation-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: auto;
+    margin-right: auto;
 }
 
 .logo-container {
@@ -123,7 +117,9 @@ body {
 }
 
 .menu-item-container {
+    display: block;
     padding: 24px 0;
+    color: var(--primary-text-color);
 }
 
 .address-container {
@@ -162,7 +158,6 @@ body {
 }
 
 .ms-container {
-    display: flex;
     padding: 188px 0;
 }
 
@@ -217,7 +212,16 @@ body {
 }
 
 .section-title {
-    display: none;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .principles-container {
@@ -272,7 +276,6 @@ body {
 
 .ts-container {
     margin-bottom: 72px;
-
 }
 
 .proect-container {
@@ -387,10 +390,6 @@ body {
 
 .main-container {
     padding: 96px 0 120px;
-}
-
-.title-h1 {
-    display: none;
 }
 
 .porto-container {
